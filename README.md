@@ -15,31 +15,29 @@ This model depicts our solar system in adjusted astronomical units. The followin
 ## Textures
 ### Planetary Textures
 Textures for the planetary bodies were obtained for free from [Solar System Scope](https://www.solarsystemscope.com/textures/).
-| **Planetary Body** | **Texture** |
-|--------------------|-------------|
-| __Sun__            |      <img src="data/sun.png" width="50" height="50">               |
-| __Mercury__        |      ![Mercury Texture](data/mercury.png)       |
-| __Venus__          |      ![Venus Texture](data/venus.png)           |
-| __Earth__          |      ![Earth Texture](data/earth_day.png)       |
-| __Earth's Moon__   |      ![Moon Texture](data/earth_moon.png)       |
-| __Mars__           |      ![Mars Texture](data/mars.png)             |
-| __Jupiter__        |      ![Jupiter Texture](data/jupiter.png)       |
-| __Saturn__         |      ![Saturn Texture](data/saturn.png)         |
-| __Uranus__         |      ![Uranus Texture](data/uranus.png)         |
-| __Neptune__        |      ![Neptune Texture](data/neptune.png)       |
+| **Planetary Body** |                           **Texture**                            |
+|--------------------|------------------------------------------------------------------|
+| __Sun__            |      <img src="data/sun.png" width="100" height="100">           |
+| __Mercury__        |      <img src="data/mercury.png" width="100" height="100">       |
+| __Venus__          |      <img src="data/venus.png" width="100" height="100">         |
+| __Earth__          |      <img src="data/earth_day.png" width="100" height="100">     |
+| __Earth's Moon__   |      <img src="data/moon.png" width="100" height="100">          |
+| __Mars__           |      <img src="data/mars.png" width="100" height="100">          |
+| __Jupiter__        |      <img src="data/jupiter.png" width="100" height="100">       |
+| __Saturn__         |      <img src="data/saturn.png" width="100" height="100">        |
+| __Uranus__         |      <img src="data/uranus.png" width="100" height="100">        |
+| __Neptune__        |      <img src="data/neptune.png" width="100" height="100">       |
 
 ### Starfield Skybox
 The skybox used for this model was generated using the Open Source Application, [Spacescape](https://github.com/petrocket/spacescape).
 | **Planetary Body** | **Texture** |
 |--------------------|-------------|
-| __Sun__            |             |
-| __Earth__          |             |
-| __Earth's Moon__   |             |
-| __Mars__           |             |
-| __Jupiter__        |             |
-| __Saturn__         |             |
-| __Uranus__         |             |
-| __Neptune__        |             |
+| __Right__          |       <img src="data/star_right1.png" width="100" height="100">       |
+| __Left__           |       <img src="data/star_left2.png" width="100" height="100">        |
+| __Top__            |       <img src="data/star_top3.png" width="100" height="100">         |
+| __Bottom__         |       <img src="data/star_bottom4.png" width="100" height="100">      |
+| __Front__          |       <img src="data/star_front5.png" width="100" height="100">       |
+| __Back__           |       <img src="data/star_back6.png" width="100" height="100">        |
 
 ## Scale
 Adjusted astronomical units were used to approximate a relative scale for planetary bodies (except for the sun, which was downsized by half, even in the 'accurate' scale/default setting).
