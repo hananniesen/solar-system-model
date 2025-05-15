@@ -1,6 +1,8 @@
 # CST 325 Final - WebGL Solar System Model
 
+<img src="misc/solar_system.gif" width="695" height="448"> 
 This model depicts our solar system in adjusted astronomical units. The following planetary bodies are depicted:
+  
  1. Sun
  2. Mercury
  3. Venus
@@ -54,7 +56,7 @@ Adjusted astronomical units were used to approximate a relative scale for planet
 | _Uranus_           |            51,118 |    0.000341697861 |          0.00341697861 |           2,872,500,000 |             19.20120321 |                  192.0120321 |                         14,794 |               0.00009889037433 |                     0.0009889037433 |                      24,477 |             0.0001636163102 |                   0.001636163102 |
 | _Neptune_          |            49,528 |   0.0003310695187 |         0.003310695187 |           4,495,100,000 |             30.04745989 |                  300.4745989 |                          9,719 |               0.00006496657754 |                     0.0006496657754 |                      19,566 |             0.0001307887701 |                   0.001307887701 |
 
-### Scale Toggle (`s`)
+### Scale Toggle <kbd>S</kbd>
 There a two modes for the diameter of planets:
 
 #### Accurate Scale
@@ -63,7 +65,7 @@ All of the planets (and moon) are programmed to be the accurate relative sizes, 
 #### Adjusted Scale
 All of the planets are sized up, proportional to the sun, for better visibility. Inner planets are multiplied by 16 (the moon by 20) and the outer planets by 4.
 
-### Distance Toggle (`d`)
+### Distance Toggle <kbd>D</kbd>
 There are also two modes for the distance of the planets from the sun:
 
 #### Accurate Distance
