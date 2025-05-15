@@ -12,6 +12,33 @@ This model depicts our solar system in adjusted astronomical units. The followin
  9. Uranus
  10. Neptune
 
+## Textures
+### Planetary Textures
+Textures for the planetary bodies were obtained for free from [Solar System Scope](https://www.solarsystemscope.com/textures/).
+| **Planetary Body** |                           **Texture**                            |
+|--------------------|------------------------------------------------------------------|
+| __Sun__            |      <img src="data/sun.png" width="100" height="100">           |
+| __Mercury__        |      <img src="data/mercury.png" width="100" height="100">       |
+| __Venus__          |      <img src="data/venus.png" width="100" height="100">         |
+| __Earth__          |      <img src="data/earth_day.png" width="100" height="100">     |
+| __Earth's Moon__   |      <img src="data/moon.png" width="100" height="100">          |
+| __Mars__           |      <img src="data/mars.png" width="100" height="100">          |
+| __Jupiter__        |      <img src="data/jupiter.png" width="100" height="100">       |
+| __Saturn__         |      <img src="data/saturn.png" width="100" height="100">        |
+| __Uranus__         |      <img src="data/uranus.png" width="100" height="100">        |
+| __Neptune__        |      <img src="data/neptune.png" width="100" height="100">       |
+
+### Starfield Skybox
+The skybox used for this model was generated using the Open Source Application, [Spacescape](https://github.com/petrocket/spacescape).
+| **Planetary Body** | **Texture** |
+|--------------------|-------------|
+| __Right__          |       <img src="data/star_right1.png" width="100" height="100">       |
+| __Left__           |       <img src="data/star_left2.png" width="100" height="100">        |
+| __Top__            |       <img src="data/star_top3.png" width="100" height="100">         |
+| __Bottom__         |       <img src="data/star_bottom4.png" width="100" height="100">      |
+| __Front__          |       <img src="data/star_front5.png" width="100" height="100">       |
+| __Back__           |       <img src="data/star_back6.png" width="100" height="100">        |
+
 ## Scale
 Adjusted astronomical units were used to approximate a relative scale for planetary bodies (except for the sun, which was downsized by half, even in the 'accurate' scale/default setting).
 | **Planetary Body** | **Diameter (km)** | **Diameter (au)** | **Diameter (mod. au)** | **Dist. from Sun (km)** | **Dist. from Sun (au)** | **Dist. from Sun (mod. au)** | **Rotational Velocity (km/h)** | **Rotational Velocity (au/h)** | **Rotational Velocity (mod. au/h)** | **Orbital Velocity (km/h)** | **Orbital Velocity (au/h)** | **Orbital Velocity (mod. au/h)** |
@@ -27,25 +54,22 @@ Adjusted astronomical units were used to approximate a relative scale for planet
 | _Uranus_           |            51,118 |    0.000341697861 |          0.00341697861 |           2,872,500,000 |             19.20120321 |                  192.0120321 |                         14,794 |               0.00009889037433 |                     0.0009889037433 |                      24,477 |             0.0001636163102 |                   0.001636163102 |
 | _Neptune_          |            49,528 |   0.0003310695187 |         0.003310695187 |           4,495,100,000 |             30.04745989 |                  300.4745989 |                          9,719 |               0.00006496657754 |                     0.0006496657754 |                      19,566 |             0.0001307887701 |                   0.001307887701 |
 
-#### Scale Toggle ('s key')
+### Scale Toggle (`s`)
 There a two modes for the diameter of planets:
 
-##### Accurate Scale
+#### Accurate Scale
 All of the planets (and moon) are programmed to be the accurate relative sizes, using adjusted astronomical units (the distance of the earth from the sun x 10⁵).
 
-##### Adjusted Scale
+#### Adjusted Scale
 All of the planets are sized up, proportional to the sun, for better visibility. Inner planets are multiplied by 16 (the moon by 20) and the outer planets by 4.
 
-#### Distance Toggle ('d key')
+### Distance Toggle (`d`)
 There are also two modes for the distance of the planets from the sun:
 
-##### Accurate Distance
+#### Accurate Distance
 All of the planets (and moon) are programmed to be the accurate relative distances, using adjusted astronomical units (the distance of the earth from the sun x 10⁵).
 
-##### Adjusted Distance
-All of the planets's distances are reduced, for better visibility of outer planets, using the log<sub>2</sub>(n).
+#### Adjusted Distance
+All of the planets' distances are reduced, for better visibility of outer planets, using the log<sub>2</sub>(n).
 
-**_NOTE: In the Adjusted Distance Mode, it is harder to see the inner planets, with Mercury phasing into the Sun Geometry. It is soley for the purpose of viewing the outer geometries._**
-
-## Starfield Skybox
-The skybox used for this model was generated using the Open Source Application, [Spacescape](https://github.com/petrocket/spacescape).
+**_NOTE: In the Adjusted Distance Mode, it is harder to see the inner planets, with Mercury phasing into the Sun Geometry. It is solely to view the outer geometries._**
