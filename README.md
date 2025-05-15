@@ -27,22 +27,22 @@ Adjusted astronomical units were used to approximate a relative scale for planet
 | _Uranus_           |            51,118 |    0.000341697861 |          0.00341697861 |           2,872,500,000 |             19.20120321 |                  192.0120321 |                         14,794 |               0.00009889037433 |                     0.0009889037433 |                      24,477 |             0.0001636163102 |                   0.001636163102 |
 | _Neptune_          |            49,528 |   0.0003310695187 |         0.003310695187 |           4,495,100,000 |             30.04745989 |                  300.4745989 |                          9,719 |               0.00006496657754 |                     0.0006496657754 |                      19,566 |             0.0001307887701 |                   0.001307887701 |
 
-#### Scale Toggle ('s key')
+### Scale Toggle ('s key')
 There a two modes for the diameter of planets:
 
-##### Accurate Scale
+### Accurate Scale
 All of the planets (and moon) are programmed to be the accurate relative sizes, using adjusted astronomical units (the distance of the earth from the sun x 10⁵).
 
-##### Adjusted Scale
+### Adjusted Scale
 All of the planets are sized up, proportional to the sun, for better visibility. Inner planets are multiplied by 16 (the moon by 20) and the outer planets by 4.
 
-#### Distance Toggle ('d key')
+### Distance Toggle ('d key')
 There are also two modes for the distance of the planets from the sun:
 
-##### Accurate Distance
+### Accurate Distance
 All of the planets (and moon) are programmed to be the accurate relative distances, using adjusted astronomical units (the distance of the earth from the sun x 10⁵).
 
-##### Adjusted Distance
+### Adjusted Distance
 All of the planets's distances are reduced, for better visibility of outer planets, using the log<sub>2</sub>(n).
 
 **_NOTE: In the Adjusted Distance Mode, it is harder to see the inner planets, with Mercury phasing into the Sun Geometry. It is soley for the purpose of viewing the outer geometries._**
