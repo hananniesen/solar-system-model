@@ -17,7 +17,7 @@ This model depicts our solar system in adjusted astronomical units. The followin
 Textures for the planetary bodies were obtained for free from [Solar System Scope](https://www.solarsystemscope.com/textures/).
 | **Planetary Body** | **Texture** |
 |--------------------|-------------|
-| __Sun__            |      ![Sun Texture](data/sun.png)               |
+| __Sun__            |      <img src="data/sun.png" width="50" height="50">               |
 | __Mercury__        |      ![Mercury Texture](data/mercury.png)       |
 | __Venus__          |      ![Venus Texture](data/venus.png)           |
 | __Earth__          |      ![Earth Texture](data/earth_day.png)       |
